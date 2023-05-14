@@ -15,6 +15,20 @@
     <script src="/kate.js" defer></script>
   </head>
   <body>
+    <header>
+      <h2 class="personal-greeting">Welcome to the Kate Bush Website</h2>
+      <form>
+        <div class="remember">
+          <label for="entername">Enter your name:</label>
+          <input type="text" id="entername" required>
+          <button type="submit" id="submitname">Say Hello</button>
+        </div>
+        <div class="forget">
+          <label for="forgetname">Want me to forget you?</label>
+          <button type="reset" id="forgetname">Forget</button>
+        </div>
+      </form>
+    </header>
     <h1>Kate Bush's Albums</h1>
     <div id="bio">
       <p>
@@ -55,15 +69,14 @@
 
     <div class="info">
       <p>
-        Listen to one of her
-        <a href="https://www.youtube.com/watch?v=5N-_WA7f2Ls" target="_blank"
-          >songs</a
+        <a class="listen" href="https://www.youtube.com/watch?v=5N-_WA7f2Ls" target="_blank"
+          ></a
         >
       </p>
       <p>
-        Learn more about Kate at her
-        <a href="https://www.katebush.com/home" target="_blank"
-          >official website</a
+        
+        <a class="her-website" href="https://www.katebush.com/home" target="_blank"
+          ></a
         >
       </p>
     </div>
